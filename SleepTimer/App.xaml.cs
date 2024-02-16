@@ -8,7 +8,7 @@ namespace AusschalteTimer
     {
         protected override void OnStartup(StartupEventArgs e)
         {
-            // Fügen Sie hier Ihren Initialisierungscode hinzu, der vor dem Starten der Anwendung ausgeführt werden soll
+          
 
             base.OnStartup(e);
         }
