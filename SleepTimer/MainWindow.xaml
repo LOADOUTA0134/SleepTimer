@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Sleeptimer" Height="500" Width="800" ResizeMode="NoResize">
     <Grid>
+       
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition/>
@@ -43,9 +44,9 @@
         <Button Content="Start timer" Click="Execute_Click" Grid.ColumnSpan="3" Grid.Column="3" Grid.Row="7" Height="30"/>
         <Button Content="Cancel timer" Click="Cancel_Click" Grid.ColumnSpan="3" Grid.Column="3" Grid.Row="3" Height="20"/>
         <Button Content="Clear all fields" Click="ClearFields_Click" Grid.Column="3" Grid.Row="4" Grid.ColumnSpan="3" Height="20"/>
+        
         <Label x:Name="timerLabel" Content="00:00:00:00" Height="150" Width="400" FontSize="76" FontFamily="Yu Gothic UI Semibold" Grid.RowSpan="2" Grid.ColumnSpan="5" Grid.Row="1" Grid.Column="2"/>
-        
-        
+ 
     </Grid>
 </Window>
 
